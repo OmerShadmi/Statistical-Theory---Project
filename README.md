@@ -95,5 +95,34 @@ To run the analysis locally, clone this repository and ensure you have the requi
 - `scipy`
 - `shap`
 
-### Running the Notebook
+### Running the Notebook on Google Colab
 
+To run the **`Statistical_Theory_Final_Project.ipynb`** notebook on Google Colab, follow these steps:
+
+#### 1. Download the Necessary Files
+First, download the following files from this repository:
+- **`Statistical_Theory_Final_Project.ipynb`**: The Colab notebook.
+- **`fifa_players.csv`**: The dataset used in the analysis.
+- **`requirements.txt`**: The text file containing the required libraries.
+
+#### 2. Open Google Colab
+Navigate to [Google Colab](https://colab.research.google.com/).
+
+#### 3. Upload the Notebook and Dataset
+- Click on **"File"** → **"Upload notebook"** and upload the **`Statistical_Theory_Final_Project.ipynb`** file.
+- Then, upload the **`fifa_players.csv`** dataset and **`requirements.txt`** file by clicking on the **"Files"** icon on the left pane and selecting **"Upload to session storage"**.
+
+#### 4. Install the Required Libraries
+Once the notebook is open, ensure that all required libraries are installed. Run the following command in a code cell to install the dependencies:
+
+!pip install -r requirements.txt
+
+#### 5. Running the Notebook
+Once the libraries are installed, you can run each cell in the notebook by clicking "Runtime" → "Run all" or by running cells individually.
+
+The notebook contains code for data processing, statistical analysis, and visualizations. Make sure all the cells execute successfully to view the full analysis and outputs.
+
+#### 6. Saving Your Work
+To save the notebook with your outputs, you can download it by clicking "File" → "Download" and choosing the format you'd like (e.g., .ipynb).
+
+By following these steps, you can run the analysis and explore the insights into the performance differences between left-footed and right-footed football players.
