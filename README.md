@@ -1,6 +1,32 @@
 # Statistical-Theory---Project
 This is our final project in the course "Statistical Theory", by Ron Libman (211540265) and Omer Shadmi (327722575). 
 
+### Table of Contents
+1. [Project Overview](#project-overview)
+   - [Key Attributes Analyzed](#key-attributes-analyzed)
+   - [Objectives](#objectives)
+2. [Project Structure](#project-structure)
+3. [Data Source](#data-source)
+4. [Analysis and Methodology](#analysis-and-methodology)
+   - [1. Data Preprocessing](#1-data-preprocessing)
+   - [2. Exploratory Data Analysis (EDA)](#2-exploratory-data-analysis-eda)
+   - [3. Statistical Tests](#3-statistical-tests)
+   - [4. Machine Learning Models](#4-machine-learning-models)
+5. [Results](#results)
+   - [Visualizations](#visualizations)
+6. [Conclusion](#conclusion)
+7. [Limitations and Future Research](#limitations-and-future-research)
+8. [Installation and Usage](#installation-and-usage)
+   - [Required Libraries](#required-libraries)
+   - [Running the Notebook on Google Colab](#running-the-notebook-on-google-colab)
+       - [1. Download the Necessary Files](#1-download-the-necessary-files)
+       - [2. Open Google Colab](#2-open-google-colab)
+       - [3. Upload the Notebook and Dataset](#3-upload-the-notebook-and-dataset)
+       - [4. Install the Required Libraries](#4-install-the-required-libraries)
+       - [5. Running the Notebook](#5-running-the-notebook)
+       - [6. Saving Your Work](#6-saving-your-work)
+
+
 ## Project Overview
 
 This project explores the hypothesis that left-footed footballers may have specific advantages in football skills compared to right-footed players. Using data from the FIFA19 dataset, which contains stats for over 18,000 players, we applied a variety of statistical techniques and machine learning models to assess differences between left-footed and right-footed players in attributes like crossing, dribbling, curve, and freekick accuracy.
