@@ -21,7 +21,10 @@ This project explores the hypothesis that left-footed footballers may have speci
 This repository contains the following files:
 - **`Statistical_Theory_Final_Project.ipynb`**: The Colab notebook containing all code for data processing, statistical analysis, visualizations, and machine learning models.
 - **`Statistical_Theory_Final_Project.pdf`**: A comprehensive report summarizing the findings and methodologies used in the project.
+- **`fifa_players.csv`**: The dataset containing statistics for 18,000 football players used in the analysis.
+- **`requirements.txt`**: A list of required Python libraries to run the notebook.
 - **`README.md`**: This file, which provides an overview of the project.
+
 
 ## Data Source
 
@@ -87,7 +90,7 @@ To run the analysis locally, clone this repository and ensure you have the requi
 - `numpy`
 - `matplotlib`
 - `seaborn`
-- 'sklearn'
+- `sklearn`
 - `xgboost`
 - `scipy`
 - `shap`
