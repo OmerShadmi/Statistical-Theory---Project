@@ -29,7 +29,7 @@ This is our final project in the course "Statistical Theory", by Ron Libman (211
 
 ## Project Overview
 
-This project explores the hypothesis that left-footed footballers may have specific advantages in football skills compared to right-footed players. Using data from the FIFA19 dataset, which contains stats for over 18,000 players, we applied a variety of statistical techniques and machine learning models to assess differences between left-footed and right-footed players in attributes like crossing, dribbling, curve, and freekick accuracy.
+This project explores the hypothesis that left-footed footballers may have specific advantages in football skills compared to right-footed players. Using data from the FIFA19 dataset, which contains stats for ~18,000 players, we applied a variety of statistical techniques and machine learning models to assess differences between left-footed and right-footed players in attributes like crossing, dribbling, curve, and freekick accuracy.
 
 ### Key Attributes Analyzed:
 - **Crossing**
@@ -66,7 +66,6 @@ The dataset used for this project was taken from the FIFA19 dataset. It includes
 ### 1. **Data Preprocessing**
    - We imported the FIFA19 dataset into the notebook using Pandas.
    - The data was cleaned to remove any missing values or irrelevant columns.
-   - Players were divided into categories based on their **preferred foot**, **position**, **age**, **rating**, and other characteristics.
    
 ### 2. **Exploratory Data Analysis (EDA)**
    - Basic statistics and visualizations (such as histograms and radar plots) were generated to explore the distribution of player attributes between left-footed and right-footed players.
@@ -81,31 +80,11 @@ The dataset used for this project was taken from the FIFA19 dataset. It includes
    - **XGBoost**: We trained an XGBoost model to predict key player attributes based on features such as foot preference, physical attributes, and technical skills.
    - **Feature Importance**: Using SHAP values and feature importance metrics, we assessed the predictive impact of foot preference on specific skills.
 
-## Results
-
-Our analysis found that left-footed players generally showed stronger performance in specific technical attributes, such as:
-- **Crossing**
-- **Dribbling**
-- **Curve**
-- **Freekick Accuracy**
-
-However, the impact of foot preference on overall player effectiveness was limited, and the differences in skill ratings might be influenced by factors like the rarity of left-footedness and strategic deployment of players.
-
 ### Visualizations:
 - **Radar Plot**: Visualizing the comparison of key attributes between left-footed and right-footed players.
 - **Distribution Plot**: Showing the spread of dribbling skill ratings by foot preference.
 - **Statistical Test Results**: Summarizing the outcomes of Welch’s t-test, Mann-Whitney U-test, and Kolmogorov-Smirnov test.
-
-## Conclusion
-
-While left-footed players demonstrated some advantages in specific skills, the overall impact of foot preference on performance is not unequivocally. The rarity of left-footed players and potential biases in player deployment may play a role in the observed differences.
-
-## Limitations and Future Research
-
-While this project included a robust analysis, there are some limitations:
-- Although we accounted for position, age, height, and rating, more granular tactical data (e.g., playing time, team strategies) could provide deeper insights.
-- The stats we've used were taken from the FIFA official game, although the stats are been written by professional football scouts and experts, they're still subjective, and are not brute fact. 
-- Further studies could investigate the role of cognitive factors, such as the right hemisphere's involvement in creativity, which may offer an additional explanation for the advantage of left-footed players.
+- **SHAP Values**: Showing feature importance for specific player attributes.
 
 ## Installation and Usage
 
