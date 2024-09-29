@@ -120,6 +120,7 @@ To run the analysis locally, clone this repository and ensure you have the requi
 - `xgboost`
 - `scipy`
 - `shap`
+- `statsmodels`
 
 ### Running the Notebook on Google Colab
 
